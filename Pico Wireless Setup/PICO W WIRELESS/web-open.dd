@@ -1,0 +1,11 @@
+DELAY 500
+REM Mute the system sound
+GUI r
+DELAY 500
+STRING sndvol
+ENTER
+DELAY 1000
+REM Wait for the volume mixer to open
+DELAY 500
+STRING {TAB}
+STRING {SPACE}
